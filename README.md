@@ -5,14 +5,14 @@ I am a teacher of computer science, exploring new ideas, and sharing my insights
 ## 🚀 About Me
 
 - 🔭 I'm currently pursuing another graduation on Psychology.
-- 📝 I have a degree in computer engineering, a master's degree in computer science and a doctorate in biotechnology.global coding community.
+- 📝 I have a degree in computer engineering, a master's degree in computer science and a doctorate in biotechnology.
 
 ## My Articles
--[2019 Toward Algorithms for Automation of Postgenomic Data Analyses: Bacillus subtilisPromoter Prediction with Artificial Neural Network, OMICS](https://www.liebertpub.com/doi/10.1089/omi.2019.0041)
+- [2019 Toward Algorithms for Automation of Postgenomic Data Analyses: Bacillus subtilisPromoter Prediction with Artificial Neural Network, OMICS](https://www.liebertpub.com/doi/10.1089/omi.2019.0041)
 
--[2018 Bacillus subtilis promoter sequences data set for promoter prediction in Gram-positive bacteria. Data in Brief - Elsevier.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5993011/)
+- [2018 Bacillus subtilis promoter sequences data set for promoter prediction in Gram-positive bacteria. Data in Brief - Elsevier.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5993011/)
 
--2016 BacSVM+: Predição de Promotes de Gram-positivas através de SVM. 2016.  Patente: Programa de Computador. Número do registro: BR5020160004-0, data de registro: 05/04/2016, título: "BacSVM+: Predição de Promotes de Gram-positivas através de SVM" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial, Depositante (s): Rafael Vieira Coelho;Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul;Universidade de Caxias do Sul.
+- 2016 BacSVM+: Predição de Promotes de Gram-positivas através de SVM. 2016.  Patente: Programa de Computador. Número do registro: BR5020160004-0, data de registro: 05/04/2016, título: "BacSVM+: Predição de Promotes de Gram-positivas através de SVM" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial, Depositante (s): Rafael Vieira Coelho;Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul;Universidade de Caxias do Sul.
 
 - 2014 Comparação entre diferentes modelos de cálculo de curvatura do DNA como parâmetro de predição e reconhecimento in silico de promotores alternativos de Escherichia coli. S de Avila, RV Coelho, P Portela, J Paz, S Echeverrigaray. XXXIV Congresso da Sociedade Brasileira de Computação (CSBC), 2014, Brasília.
   
