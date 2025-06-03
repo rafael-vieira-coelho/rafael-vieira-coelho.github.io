@@ -1,50 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafael Vieira Coelho</title>
+    <title>Convite - Primeira Eucaristia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+ <style>
+		@font-face {
+    font-family: 'syne';
+    src: url('https://github.com/rafael-vieira-coelho/vivace/raw/refs/heads/main/Syne-VariableFont_wght.ttf') format('truetype');
+}
+
+        body {
+            background: url('https://raw.githubusercontent.com/rafael-vieira-coelho/vivace/refs/heads/main/fundo2.png');  
+            font-family: 'syne';
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .overlay {
+			background: url('https://raw.githubusercontent.com/rafael-vieira-coelho/vivace/refs/heads/main/fundo.png');    
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            text-align: right;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-family: 'syne';
+            color: #243407;
+            font-size: 36px;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        
+        h2 {
+            font-family: 'syne';
+			color: #243407;
+            font-size: 26px;
+		}
+
+        p {
+            font-family: 'syne';
+            font-size: 18px;
+            line-height: 1.8;
+            margin: 10px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .highlight {
+            font-family: 'syne';
+            color: #DAA520;
+            font-weight: bold;
+        }
+
+		.highlight2 {
+            font-family: 'syne';
+            color: #243407;
+            font-weight: bold;
+            font-size:70px;
+	        font-family: "Source Code Pro", monospace;
+            font-optical-sizing: auto;
+            font-style: normal;
+	       }
+
+        .rsvp {
+            font-family: 'syne';
+            margin-top: 20px;
+            font-size: 16px;
+            color: #243407;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+
+        .rsvp a {
+            font-family: 'syne';
+            color: #243407;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .rsvp a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+	.button {
+            font-family: 'syne';
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #243407;
+            text-decoration: none;
+            margin: 10px 5px;
+            transition: background-color 0.3s ease;
+			border-radius: 15px; 
+        }
+
+        .button:hover {
+            background-color: #f5f5dc;
+            color: black;
+        }
+        
+        @media (max-width: 480px) {
+            .overlay {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hi, I'm Dr. Rafael Vieira Coelho! 👋</h1>
-    <p>I am a teacher of computer science, exploring new ideas, and sharing my insights with the community.</p>
+    <div class="overlay"><br><br><br>
+        <p><span class="highlight2">Inaurugação</span></p>
+        <h2>Dia 24/06 às 18h.</h2>
+        <p><a href="https://maps.app.goo.gl/yzXZLPR4rEQjL1yK6" class="button" alt="Localização">Prédio Vértice
+			</a>
 
-    <h2>🚀 About Me</h2>
-    <ul>
-        <li>🔭 I'm currently pursuing another graduation on Psychology.</li>
-        <li>📝 I have a degree in computer engineering, a master's degree in computer science and a doctorate in biotechnology.</li>
-    </ul>
+        </p>
+        <br><br><br><br><br><br>
 
-    <h2>My Articles</h2>
-    <ul>
-        <li><a href="https://www.liebertpub.com/doi/10.1089/omi.2019.0041">2019 Toward Algorithms for Automation of Postgenomic Data Analyses: Bacillus subtilisPromoter Prediction with Artificial Neural Network, OMICS</a></li>
-        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5993011/">2018 Bacillus subtilis promoter sequences data set for promoter prediction in Gram-positive bacteria. Data in Brief - Elsevier.</a></li>
-        <li>2016 BacSVM+: Predição de Promotes de Gram-positivas através de SVM. 2016. Patente: Programa de Computador. Número do registro: BR5020160004-0, data de registro: 05/04/2016, título: "BacSVM+: Predição de Promotes de Gram-positivas através de SVM", Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial, Depositante (s): Rafael Vieira Coelho;Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul;Universidade de Caxias do Sul.</li>
-        <li>2014 Comparação entre diferentes modelos de cálculo de curvatura do DNA como parâmetro de predição e reconhecimento in silico de promotores alternativos de Escherichia coli. S de Avila, RV Coelho, P Portela, J Paz, S Echeverrigaray. XXXIV Congresso da Sociedade Brasileira de Computação (CSBC), 2014, Brasília.</li>
-        <li>2011 Challenging the feasibility of authentication mechanisms for P2P live streaming. RV Coelho, JT Pastro, RS Antunes, MP Barcellos, I Jansch-Porto, Proceedings of the 6th Latin America Networking Conference.</li>
-        <li>2010 P2P streaming de alta definição: Análise quantitativa de esquemas de assinatura digital para autenticação de conteúdo. RV Coelho, M Barcellos, I Jansch-Pôrto, L Gaspary, Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC), Gramado: SBC.</li>
-        <li>2010 - Sra. Fantini. 1. ed. São Paulo: Madio Editorial, 2010. v. 1. 200p.</li>
-        <li>2008 Estimando Atrasos em Redes de Computadores através de Sistemas de Coordenadas - A Ferramenta Euclidiana. 2007. CRICTE 2007 - XXII CONGRESSO REGIONAL DE INICIAÇÃO CIENTÍFICA E TECNOLÓGICA EM ENGENHARIA E VII FEIRA DE PROTÓTIPOS. SBRC. Estimando Atrasos em Redes de Computadores através de Sistemas de Coordenadas - Uma Implementação Utilizando Java Web Services. F Madruga, R Coelho, J Hamerski, M Pias, ND Filho. V ERRC - Escola Regional de Redes de Computadores.</li>
-        <li>2007 FURGTV: STREAMING VIDEO VIA MULTICAST. RV Coelho. TCC em Engenharia de Computação - FURG.</li>
-    </ul>
-
-    <h2>🌱 Currently Exploring</h2>
-    <ul>
-        <li>🚀 Learning Full Stack Web Development
-            <ul>
-                <li>Exploring the ins and outs of React and Redux for dynamic front-end experiences.</li>
-                <li>Navigating through the world of React Router for seamless page transitions.</li>
-                <li>Styling with Tailwind CSS to create modern and responsive user interfaces.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h2>📬 Get in Touch</h2>
-    <ul>
-        <li>Connect with me on <a href="https://twitter.com/rafael_coelho84">Twitter</a></li>
-        <li>Watch my videos on <a href="https://www.youtube.com/@AulasdoCoelho">Youtube</a></li>
-    </ul>
-
-    <p>Thanks for stopping by! Let's connect and explore the fascinating world of technology together. 🚀</p>
+    </div>
 </body>
 </html>
